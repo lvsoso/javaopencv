@@ -35,7 +35,7 @@ public class Panel extends JPanel {
 	 * @param source
 	 * @return
 	 */
-	private BufferedImage matToBufferedImage(Mat source) {
+	public BufferedImage matToBufferedImage(Mat source) {
 		int cols = source.cols();
 		int rows = source.rows();
 		int elemSize = (int) source.elemSize();
